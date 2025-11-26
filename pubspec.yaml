@@ -1,0 +1,71 @@
+name: loca_tales
+description: "Travel AI Planner - Plan de viaje personalizado con IA"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Immutable Classes & Serialization
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # HTTP Client
+  dio: ^5.7.0
+
+  # Maps
+  mapbox_maps_flutter: ^2.0.0
+
+  # AI
+  google_generative_ai: ^0.4.0
+
+  # Environment Variables
+  flutter_dotenv: ^5.1.0
+
+  # Navigation
+  go_router: ^14.6.2
+
+  # Local Storage
+  shared_preferences: ^2.3.3
+
+  # Location
+  geolocator: ^13.0.2
+  permission_handler: ^11.3.1
+
+  # Utilities
+  intl: ^0.20.2
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Code Generation
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.6.2
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+
+  # Testing
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env.development
+    - .env.staging
+    - .env.production
+    - assets/map_icons/

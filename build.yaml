@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      freezed:
+        options:
+          union_value_case: pascal
+      json_serializable:
+        options:
+          explicit_to_json: true
+          include_if_null: false
+
+
