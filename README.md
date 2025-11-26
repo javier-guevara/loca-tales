@@ -296,13 +296,13 @@ Este proyecto está bajo desarrollo activo. Todos los derechos reservados.
 
 ## 👨‍💻 Autor
 
-Desarrollado con ❤️ por [Tu Nombre]
+Desarrollado con ❤️ por [Javier Guevara]
 
 ## 📞 Contacto
 
 Para problemas, preguntas o sugerencias:
-- 📧 Email: tu-email@ejemplo.com
-- 🐛 Issues: [GitHub Issues](https://github.com/tu-usuario/loca_tales/issues)
+- 📧 Email: jg131997@gmail.com
+- 🐛 Issues: [GitHub Issues](https://github.com/javier-guevara/loca_tales/issues)
 - 📖 Documentación: [SETUP.md](SETUP.md)
 
 ---
